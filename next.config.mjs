@@ -20,4 +20,5 @@ const withPWA = withPWAInit({
 const nextConfig = {};
 export default withPWA({
     // Your Next.js config
+    output: "standalone",
 });
